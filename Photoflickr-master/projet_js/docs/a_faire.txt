@@ -1,0 +1,11 @@
+1) Faire un formulaire
+2) Faire un champ avec la commune a rentrer (on peut faire un choix de nb de photos avec l'input range)
+3) Gerer l'auto-completion
+4) Interroger l'API avec ce qui est passé dans le form avec un GET
+5) Avec l'API on stocke dans le contenu de la page
+6) Afficher les photos grace a l'API
+
+
+
+Pour le js : 
+Faire des listeners pour afficher les infos des photos.

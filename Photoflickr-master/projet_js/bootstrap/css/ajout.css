@@ -1,0 +1,74 @@
+#field1{
+  border: none;
+
+}
+#field2{
+
+    margin-left:30%;
+    margin-right: 30%;
+    border: 2px;
+    border-style: double;
+
+  }
+
+input[type=range] {
+  display: block;
+  margin: 0 auto;
+
+}
+#label1{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: -15px;
+}
+#label2{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: monospace;
+
+}
+#tags{
+  display: block;
+  margin: 0 auto;
+}
+h5{
+  text-align: center;
+
+}
+body{
+  background-image: url(../../back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  margin-top : 30px;
+  color:white;
+  font-family: monospace;
+  text-align:center;
+
+}
+#tabs{
+  height: auto;
+  margin-left : 20px;
+  margin-right : 20px;
+  margin-top : 30px;
+}
+#ic_envoi{
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+}
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#nombre2{
+  margin-top:-20px;
+  display: block;
+  text-align: center;
+}

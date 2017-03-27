@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recherche de photos Flickr</title>
+
+
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <!--<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/fh-3.1.2/datatables.min.css"/>-->
+      <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/hot-sneaks/jquery-ui.css" />
+      <link href="bootstrap/css/ajout.css" rel="stylesheet">
+      <script src="bootstrap/js/script.js"></script>
+      <!--<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/fh-3.1.2/datatables.min.js"></script>-->
+</head>
+<body background="back.png">
+  <h1>Recherche de photos Flickr</h1>
+
+<fieldset id="field2">
+  <form>
+    <div>
+      <label id="label1" for="tags">Veuillez entrer le nom de la ville: </label>
+      <br/>
+      <input type="text-area" name = "query" class="form-control" id="tags" placeholder="Nom de ville">
+    </div>
+
+
+      <p class="hide-text">Veuillez entrer une ville</p>
+
+      <label id="label2" for="tags">Veuillez choisir le nombre de photos souhaitées: </label>
+      <input id="curseur"type="range" name ="per_page" value="1" max="10" min="1" step="1" oninput="result1.value=parseInt(per_page.value)"/><br/>
+      <output id="nombre2" name="result1">--</output><br/>
+
+
+
+      <span id="ic_envoi"class="ui-icon-circle-arrow-e  ui-icon ui-icon-background ui-icon-blank"></span>
+
+  </form>
+</fieldset>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Vue Photo</a></li>
+      <li><a href="#tabs-2">Vue Table</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>
